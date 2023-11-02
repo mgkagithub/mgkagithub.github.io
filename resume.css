@@ -23,6 +23,10 @@ body{
 
 }
 
+.imgop{
+    opacity: 50%;
+}
+
 img {
     /* width: 100vh; */
     position:relative;
@@ -55,6 +59,7 @@ h2{
     align-items: center;
     justify-content: center;
     text-shadow: 8px 2px 5px black;
+    flex: nowrap;
 }
 
 h3{text-align: left; font-size: 5vh; color: rgb(0, 91, 137);}
